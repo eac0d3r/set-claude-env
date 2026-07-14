@@ -1,6 +1,6 @@
 {
   "name": "set-claude-env",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Copia o bloco env de um settings.json para o .claude/settings.json local do projeto",
   "type": "module",
   "bin": {
