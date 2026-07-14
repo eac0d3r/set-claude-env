@@ -1,0 +1,14 @@
+# dependências
+node_modules/
+
+# logs
+*.log
+npm-debug.*
+
+# pacote gerado
+*.tgz
+
+# build/emit (não há build, mas por segurança)
+*.js.map
+*.d.ts
+*.tsbuildinfo

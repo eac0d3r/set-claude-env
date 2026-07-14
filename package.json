@@ -1,0 +1,24 @@
+{
+  "name": "set-claude-env",
+  "version": "0.1.0",
+  "description": "Copia o bloco env de um settings.json para o .claude/settings.json local do projeto",
+  "type": "module",
+  "bin": {
+    "set-claude-env": "index.ts"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node test.js"
+  },
+  "license": "MIT",
+  "files": [
+    "index.ts"
+  ],
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0"
+  }
+}
